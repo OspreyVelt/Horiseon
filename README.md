@@ -1,5 +1,5 @@
 #Refactor for Horiseon landing page, 07-2020
-[]()
+[Deployed URL][https://ospreyvelt.github.io/Horiseon/]
 
 ##Table of Contents:
 1. HTML
