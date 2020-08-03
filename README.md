@@ -1,44 +1,16 @@
-# 01 HTML CSS Git: Code Refactor
+#Refactor for Horiseon landing page, 07-2020
 
-One of the most common tasks for front-end and junior developers is to take existing code and refactor it to either meet a certain set of standards or implement a new technology. Web accessibility is an increasingly important consideration for businesses, ensuring that people with disabilities or socio-economic restrictions have access to their website, and helping them avoid litigation.
+[Deployed URL][https://ospreyvelt.github.io/Horiseon/]
 
-Your task is to refactor an existing webpage to make it accessible. An important rule to follow when working with someone else's code is the Scout Rule:
+##Table of Contents:
 
-> Always leave the code you are editing a little cleaner than you found it.
+HTML
+CSS
+##HTML
 
-To impress clients, you should always go the extra mile and improve their codebase for long term sustainability. Ensure that all links are functioning correctly and clean up the CSS to make it more efficient, consolidating CSS selectors and properties, organizing them to follow the semantic structure of the HTML elements, and including comments before each element or section of the page.
+*added various internal notation for clarity and ease of review, matching CSS notations when appropriate *added missing selector ID "search-engine-optimization" to appropriate
 
-## User Story
+so that header navigation links correctly *changed body>div>h1>div to body>header>h1>nav *eliminated class=header as this was no longer necessary for functionality *
+##CSS
 
-```
-AS A marketing agency
-I WANT a codebase that follows accessibility standards
-SO THAT our own site is optimized for search engines
-```
-
-## Acceptance Criteria
-
-```
-GIVEN a webpage meets accessibility standards
-WHEN I view the source code
-THEN I find semantic HTML elements
-WHEN I view the structure of the HTML elements
-THEN I find that the elements follow a logical structure independent of styling and positioning
-WHEN I view the image elements
-THEN I find accessible alt attributes
-WHEN I view the heading attributes
-THEN they fall in sequential order
-WHEN I view the title element
-THEN I find a concise, descriptive title
-```
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application.
-
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
-
-- - -
-© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+*added various internal notation for clarity and ease of review, matching HTML notations when appropriate *re-ordered styles to group related elements without impacting funtionality of CSS. Maintained separation for Content divs so future edits won't require extra work. *adjusted paths for selector in accordance with HTML change(body>div>h1>div to body>header>h1>nav)Reference:[changed body>div>h1>div to body>header>h1>nav] *
