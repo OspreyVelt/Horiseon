@@ -1,5 +1,6 @@
 #Refactor for Horiseon landing page, 07-2020
-[]()
+
+[Deployed URL][https://ospreyvelt.github.io/Horiseon/]
 
 ##Table of Contents:
 1. HTML
@@ -11,7 +12,6 @@
 *added missing selector ID "search-engine-optimization" to appropriate <div> so that header navigation links correctly
 *changed body>div>h1>div to body>header>h1>nav
 *eliminated class=header as this was no longer necessary for functionality
-*changed primary <div>s for Stacked Content and Benefits Column to <section> tags to distinguish
 *
 
 
